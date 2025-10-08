@@ -3,34 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Free Wailers</title>
+    <title>Free Wailers - Coming Soon</title>
     <style>
+        /* Import Acumin Pro from Google Fonts */
+        @import url('https://fonts.googleapis.com/css2?family=Acumin+Pro:wght@400;700&display=swap');
+        
+        /* Helvetica Neue Bold (system font fallback if unavailable) */
+        @font-face {
+            font-family: 'Helvetica Neue';
+            src: local('Helvetica Neue Bold'), local('HelveticaNeue-Bold');
+            font-weight: bold;
+            font-style: normal;
+        }
+
+        /* Global Styles */
         body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Acumin Pro', sans-serif;
+            background-color: #ffffff; /* white background */
+            color: #000000;           /* black text */
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
-            margin: 0;
-            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-            background-color: #f4f1ed;
-            color: #111;
             text-align: center;
         }
-        h1 { font-size: 4rem; letter-spacing: 0.1em; margin-bottom: 1rem; font-weight: 400; }
-        p { font-size: 1.25rem; letter-spacing: 0.05em; margin-bottom: 2rem; }
-        a { color: #111; text-decoration: none; border-bottom: 1px solid #111; transition: all 0.3s ease; }
-        a:hover { color: #555; border-color: #555; }
-        @media (max-width: 600px) { h1 { font-size: 3rem; } p { font-size: 1rem; } }
+
+        h1 {
+            font-family: 'Helvetica Neue', sans-serif;
+            font-weight: bold;
+            font-size: 4rem;
+            margin: 0;
+            letter-spacing: 0.1rem;
+        }
+
+        h2 {
+            font-size: 2rem;
+            font-weight: 400;
+            margin-top: 1rem;
+            letter-spacing: 0.05rem;
+        }
+
+        @media (max-width: 600px) {
+            h1 { font-size: 3rem; }
+            h2 { font-size: 1.5rem; }
+        }
     </style>
 </head>
 <body>
     <div>
-        <h1>FREE WAILERS</h1>
-        <p>Coming Soon</p>
-        <p>
-            <a href="mailto:contact@freewailers.com">Contact Us</a> | 
-            <a href="https://www.instagram.com/freewailers" target="_blank">Instagram</a>
-        </p>
+        <h1>free wailers</h1>
+        <h2>coming soon</h2>
     </div>
 </body>
 </html>
