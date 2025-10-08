@@ -4,6 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Free Wailers - Coming Soon</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <!-- If your favicon is PNG instead, use: -->
+  <!-- <link rel="icon" href="favicon.png" type="image/png"> -->
+
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Acumin+Pro:wght@300&display=swap');
 
@@ -15,7 +21,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      background-color: #ffffff;
+      background-color: #ffffff;  /* white background */
       font-family: 'Acumin Pro', sans-serif;
       text-align: center;
     }
@@ -29,13 +35,13 @@
     img.logo {
       width: 300px;   /* Adjusted width */
       height: auto;   /* Maintain aspect ratio */
-      margin-bottom: 20px; /* Increased margin */
+      margin-bottom: 20px; /* Vertical spacing from text */
     }
 
     h2 {
       font-weight: 300;       /* Light weight */
-      font-size: 24px;        /* Adjusted size */
-      color: #261107;         /* Your specified color */
+      font-size: 24px;        /* Font size */
+      color: #261107;         /* Your hex color */
       margin: 0;
       letter-spacing: 0.5px;
       text-transform: capitalize; /* Title case */
@@ -53,8 +59,4 @@
 </head>
 <body>
   <div class="content">
-    <img src="logo.png" alt="Free Wailers Logo" class="logo">
-    <h2>Coming Soon</h2>
-  </div>
-</body>
-</html>
+    <img src="logo.png" alt="
