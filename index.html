@@ -15,7 +15,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      background-color: #ffffff;  /* white background */
+      background-color: #ffffff;
       font-family: 'Acumin Pro', sans-serif;
       text-align: center;
     }
@@ -27,26 +27,26 @@
     }
 
     img.logo {
-      width: 250px;   /* logo width */
-      height: 23px;   /* logo height */
-      margin-bottom: 10px;
+      width: 300px;   /* Adjusted width */
+      height: auto;   /* Maintain aspect ratio */
+      margin-bottom: 20px; /* Increased margin */
     }
 
     h2 {
-      font-weight: 300;       /* light */
-      font-size: 20px;        /* as specified */
-      color: #261107;         /* your hex color */
+      font-weight: 300;       /* Light weight */
+      font-size: 24px;        /* Adjusted size */
+      color: #261107;         /* Your specified color */
       margin: 0;
       letter-spacing: 0.5px;
+      text-transform: capitalize; /* Title case */
     }
 
     @media (max-width: 600px) {
       img.logo {
-        width: 200px;
-        height: auto;
+        width: 250px; /* Adjusted width for smaller screens */
       }
       h2 {
-        font-size: 16px;
+        font-size: 20px; /* Adjusted font size for smaller screens */
       }
     }
   </style>
@@ -54,7 +54,7 @@
 <body>
   <div class="content">
     <img src="logo.png" alt="Free Wailers Logo" class="logo">
-    <h2>coming soon</h2>
+    <h2>Coming Soon</h2>
   </div>
 </body>
 </html>
