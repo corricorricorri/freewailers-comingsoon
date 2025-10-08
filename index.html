@@ -15,22 +15,30 @@
     }
 
     /* Global Styles */
-    body {
+    html, body {
       margin: 0;
       padding: 0;
-      font-family: 'Acumin Pro', sans-serif;
+      height: 100%;
+      width: 100%;
       background-color: #ffffff; /* white background */
       color: #000000;           /* black text */
+      font-family: 'Acumin Pro', sans-serif;
+    }
+
+    body {
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100vh;
       text-align: center;
-      flex-direction: column;
+      position: relative;
+      overflow: hidden;
     }
 
     .content {
       transform: scale(0.75); /* 25% smaller */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
 
     img.logo {
@@ -42,7 +50,7 @@
     h2 {
       font-size: 2rem;
       font-weight: 400;
-      margin-top: 0;
+      margin: 0;
       letter-spacing: 0.05rem;
     }
 
@@ -58,26 +66,4 @@
       transition: background-color 0.2s;
     }
 
-    .contact-btn:hover {
-      background-color: #333;
-    }
-
-    @media (max-width: 600px) {
-      img.logo {
-        max-width: 200px;
-      }
-      h2 {
-        font-size: 1.5rem;
-      }
-    }
-  </style>
-</head>
-<body>
-  <div class="content">
-    <img src="logo.png" alt="Free Wailers Logo" class="logo">
-    <h2>coming soon</h2>
-  </div>
-
-  <a href="mailto:contact@freewailers.com" class="contact-btn">Contact</a>
-</body>
-</html>
+    .con
