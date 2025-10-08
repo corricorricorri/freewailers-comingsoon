@@ -39,4 +39,35 @@
       align-items: center;
     }
 
-    img.lo
+    img.logo {
+      max-width: 330px; /* logo size */
+      height: auto;
+      margin-bottom: 0.5rem; /* closer to subheading */
+    }
+
+    h2 {
+      font-family: 'Acumin Pro', sans-serif;
+      font-size: 1.7rem;  /* slightly smaller than logo */
+      font-weight: 300;   /* light weight */
+      margin: 0;
+      letter-spacing: 0.05rem;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      img.logo {
+        max-width: 220px;
+      }
+      h2 {
+        font-size: 1.3rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <img src="logo.png" alt="Free Wailers Logo" class="logo">
+    <h2>coming soon</h2>
+  </div>
+</body>
+</html>
